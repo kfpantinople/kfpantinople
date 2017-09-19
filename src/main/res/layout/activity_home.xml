@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.joxxxx.bucketlisten.verify">
+    tools:context="com.example.kathrinefaye.bucketlisten.Home">
 
     <RelativeLayout
         android:layout_width="375dp"
@@ -30,7 +30,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:background="@drawable/menu" />
+            android:background="@drawable/menu"
+            android:text="Button" />
 
     </RelativeLayout>
 
