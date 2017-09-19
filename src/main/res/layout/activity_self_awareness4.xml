@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selfawareness"
+    tools:context="com.example.joxxxx.bucketlisten.SelfAwareness4">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check the word/s that best describes you."
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="79dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="66dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:id="@+id/checkBox61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView20"
+            android:layout_below="@+id/textView20"
+            android:layout_marginTop="20dp"
+            android:text="Sensitive feeling" />
+
+        <CheckBox
+            android:id="@+id/checkBox62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/checkBox61"
+            android:layout_below="@+id/checkBox61"
+            android:text="Calm" />
+
+        <CheckBox
+            android:id="@+id/checkBox63"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/checkBox62"
+            android:layout_below="@+id/checkBox62"
+            android:text="Non-demanding" />
+
+        <CheckBox
+            android:id="@+id/checkBox64"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/checkBox63"
+            android:layout_below="@+id/checkBox63"
+            android:text="Avoid confrontations" />
+
+        <CheckBox
+            android:id="@+id/checkBox65"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/checkBox64"
+            android:layout_below="@+id/checkBox64"
+            android:text="Enjoy routine" />
+
+        <CheckBox
+            android:id="@+id/checkBox66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/checkBox65"
+            android:layout_below="@+id/checkBox65"
+            android:text="Warm and relational" />
+
+        <CheckBox
+            android:id="@+id/checkBox67"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/checkBox66"
+            android:layout_below="@+id/checkBox66"
+            android:text="Adaptable" />
+
+        <CheckBox
+            android:id="@+id/checkBox69"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/checkBox67"
+            android:layout_below="@+id/checkBox67"
+            android:text="Thoughtful" />
+
+        <CheckBox
+            android:id="@+id/checkBox70"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/checkBox69"
+            android:layout_below="@+id/checkBox69"
+            android:text="Patient" />
+
+        <CheckBox
+            android:id="@+id/checkBox71"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/checkBox70"
+            android:layout_below="@+id/checkBox70"
+            android:text="Good listener" />
+
+        <CheckBox
+            android:id="@+id/checkBox72"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loyal"
+            android:layout_alignBaseline="@+id/checkBox61"
+            android:layout_alignBottom="@+id/checkBox61"
+            android:layout_alignStart="@+id/checkBox73" />
+
+        <CheckBox
+            android:id="@+id/checkBox73"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Even keeled"
+            android:layout_below="@+id/checkBox72"
+            android:layout_toEndOf="@+id/checkBox64"
+            android:layout_marginStart="19dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox74"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/checkBox73"
+            android:layout_below="@+id/checkBox73"
+            android:text="Give in easily" />
+
+        <CheckBox
+            android:id="@+id/checkBox75"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/checkBox74"
+            android:layout_below="@+id/checkBox74"
+            android:text="Indecisive" />
+
+        <CheckBox
+            android:id="@+id/checkBox76"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/checkBox75"
+            android:layout_below="@+id/checkBox75"
+            android:text="Dislike change" />
+
+        <CheckBox
+            android:id="@+id/checkBox77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/checkBox76"
+            android:layout_below="@+id/checkBox76"
+            android:text="Dry humor" />
+
+        <CheckBox
+            android:id="@+id/checkBox78"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/checkBox77"
+            android:layout_below="@+id/checkBox77"
+            android:text="Sympathetic" />
+
+        <CheckBox
+            android:id="@+id/checkBox79"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/checkBox78"
+            android:text="Nurturing"
+            android:layout_below="@+id/checkBox78" />
+
+        <CheckBox
+            android:id="@+id/checkBox80"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/checkBox79"
+            android:layout_below="@+id/checkBox79"
+            android:text="Tolerant" />
+
+        <CheckBox
+            android:id="@+id/checkBox81"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/checkBox80"
+            android:layout_below="@+id/checkBox80"
+            android:text="Peace maker" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox81"
+            android:layout_marginTop="11dp"
+            android:layout_toEndOf="@+id/checkBox72"
+            android:text="NEXT" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
