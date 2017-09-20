@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.kathrinefaye.bucketlisten">
+    package="com.example.joxxxx.footscapes">
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/icon"
+        android:icon="@mipmap/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Home">
+        <activity android:name=".LoginUI">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Menu" />
-        <activity android:name=".PreTestResult" />
-        <activity android:name=".DesinationSuggestions" />
-        <activity android:name=".AdventureStarts" />
-        <activity android:name=".HomeBucketlist" />
-        <activity android:name=".HomeChecklist" />
-        <activity android:name=".Pre_test" />
-        <activity
-            android:name=".sample"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_sample"
-            android:theme="@style/FullscreenTheme"></activity>
+        <activity android:name=".RegisterUI" />
+        <activity android:name=".EmailVerifyUI" />
+        <activity android:name=".CodeVerifyUI" />
+        <activity android:name=".SetPasswordUI" />
+        <activity android:name=".SelfAwarenessCholericUI" />
+        <activity android:name=".SelfAwarenessSanguineUI" />
+        <activity android:name=".SelfAwarenessMelancholicUI" />
+        <activity android:name=".SelfAwarenessPhlegmaticUI" />
+        <activity android:name=".HomePretestUI" />
+        <activity android:name=".SelfAwarenessResultsUI" />
+        <activity android:name=".HomeChecklistUI" />
+        <activity android:name=".HomeBucketListUI" />
+        <activity android:name=".MenuUI" />
+        <activity android:name=".HomeAdventureStartsUI" />
+        <activity android:name=".UserProfileUI" />
+        <activity android:name=".MenuMyTravelJournalUI" />
+        <activity android:name=".MenuUpcoming"></activity>
     </application>
 
 </manifest>
