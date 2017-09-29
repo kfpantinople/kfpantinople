@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.joxxxx.footscapes">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginUI">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterUI" />
+        <activity android:name=".SetPasswordUI" />
+        <activity
+            android:name=".SelfAwarenessResultsUI"
+            android:parentActivityName=".MenuUI">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joxxxx.footscapes.MenuUI" />
+        </activity>
+        <activity android:name=".MenuUI" />
+        <activity android:name=".UserProfileUI" />
+        <activity android:name=".MenuMyTravelJournalUI" />
+        <activity android:name=".MenuSettingsUI" />
+        <activity android:name=".TermsAndConditionsUI" />
+        <activity android:name=".MenuUpcomingUI" />
+        <activity android:name=".HelpCenterUI" />
+        <activity android:name=".SelectDestinationUI" />
+        <activity android:name=".ChecklistUI" />
+        <activity android:name=".BucketListUI" />
+        <activity android:name=".BucketListInputUI" />
+        <activity android:name=".ReportUI" />
+        <activity android:name=".JournalUI" />
+        <activity android:name=".PreTestUI" />
+        <activity android:name=".PostTestUI" />
+        <activity android:name=".PreTestResultUI" />
+        <activity android:name=".PostTestResultUI" />
+        <activity android:name=".HomeUI" />
+        <activity android:name=".UpcomingUI" />
+        <activity android:name=".EmailVerificationUI" />
+        <activity android:name=".CodeVerificationUI" />
+        <activity android:name=".SelfAwarenessUI" />
+        <activity android:name=".BucketListDetailsUI"
+            android:parentActivityName=".BucketListUI">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.joxxxx.footscapes.BucketListUI" />
+        </activity>
+    </application>
+
+</manifest>

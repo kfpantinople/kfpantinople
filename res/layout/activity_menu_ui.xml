@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.joxxxx.footscapes.MenuUI">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="28dp"
+            android:onClick="buttonclick"
+            android:text="Name"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/tvuser"
+            android:layout_below="@+id/tvuser"
+            android:layout_marginTop="11dp"
+            android:textSize="20dp"
+            android:text="Email"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/tvmtj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView10"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="40dp"
+            android:onClick="buttonclick"
+            android:text="My Travel Journal"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvuocoming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tvmtj"
+            android:layout_below="@+id/tvmtj"
+            android:layout_marginTop="12dp"
+            android:onClick="buttonclick"
+            android:text="Upcoming"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvmoments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tvuocoming"
+            android:layout_below="@+id/tvuocoming"
+            android:layout_marginTop="12dp"
+            android:onClick="buttonclick"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvachieve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tvmoments"
+            android:layout_below="@+id/tvmoments"
+            android:layout_marginTop="13dp"
+            android:onClick="buttonclick"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvsettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="buttonclick"
+            android:text="Settings"
+            android:textSize="20dp"
+            android:layout_alignBaseline="@+id/tvmoments"
+            android:layout_alignBottom="@+id/tvmoments"
+            android:layout_toEndOf="@+id/tvmoments" />
+
+        <TextView
+            android:id="@+id/tvtac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tvsettings"
+            android:layout_below="@+id/tvsettings"
+            android:layout_marginTop="14dp"
+            android:onClick="buttonclick"
+            android:text="Terms and Conditions"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvhc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tvtac"
+            android:layout_below="@+id/tvtac"
+            android:layout_marginTop="15dp"
+            android:onClick="buttonclick"
+            android:text="Help Center"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvlogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tvhc"
+            android:layout_below="@+id/tvhc"
+            android:layout_marginTop="17dp"
+            android:onClick="buttonclick"
+            android:text="Logout"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

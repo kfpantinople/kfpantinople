@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.joxxxx.footscapes.ChecklistUI">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375">
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="23dp"
+            android:text="ARE YOU READY?"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="410dp"
+            android:layout_toEndOf="@+id/textView59"
+            app:srcCompat="@drawable/checkist" />
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView59"
+            android:layout_below="@+id/textView59"
+            android:layout_marginTop="45dp"
+            android:text="Things to bring:"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/cbec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView60"
+            android:layout_below="@+id/textView60"
+            android:layout_marginTop="27dp"
+            android:text="Extra Clothes" />
+
+        <CheckBox
+            android:id="@+id/cbt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/cbec"
+            android:layout_below="@+id/cbec"
+            android:text="Toiletries" />
+
+        <CheckBox
+            android:id="@+id/cbf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/cbt"
+            android:layout_below="@+id/cbt"
+            android:text="Flashlight" />
+
+        <CheckBox
+            android:id="@+id/cbw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/cbf"
+            android:layout_below="@+id/cbf"
+            android:text="Water" />
+
+        <CheckBox
+            android:id="@+id/cbpt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/cbw"
+            android:layout_below="@+id/cbw"
+            android:text="Personal Things" />
+
+        <CheckBox
+            android:id="@+id/cbpb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/cbpt"
+            android:layout_below="@+id/cbpt"
+            android:text="Power Bank" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="SUBMIT"
+            android:layout_alignParentBottom="true"
+            android:layout_alignEnd="@+id/imageView7"
+            android:layout_marginEnd="30dp" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
