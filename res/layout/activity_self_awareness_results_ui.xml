@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.joxxxx.footscapes.SelfAwarenessResultsUI">
+
+    <RelativeLayout
+        android:layout_width="385dp"
+        android:layout_height="510dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvtempresult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"
+            android:text="MELANCHOLIC TEMPERAMENT"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/tvtempresult"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="29dp"
+            android:text="General Characteristics: They are the thinkers and organizers. They feel that there is a right way to do everything and usually have a high degree of perfectionistic tendencies. Their personalities are very creative. They desire to solve everything and to take their time and do it right. They do not like sudden changes and need reassurance." />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:text="Biblical Example: Moses \nCase Study: Exodus 3-4 \nStrength: High standards, order, respect \nPossible Weaknesses: Unrealistic expectations of self and others, too perfect. \nLimitation: Seeing the optimistic side of things, expressing flexibility"
+            android:layout_below="@+id/textView14"
+            android:layout_alignStart="@+id/textView14"
+            android:layout_marginTop="12dp"
+            android:id="@+id/textView11" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

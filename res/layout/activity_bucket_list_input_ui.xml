@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.joxxxx.footscapes.BucketListUI">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editText3"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="18dp"
+            android:text="BUCKET LIST:"
+            android:textSize="25dp" />
+
+        <CheckBox
+            android:id="@+id/cb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="77dp"
+            android:text="Biking"
+            android:layout_marginStart="27dp"
+            android:layout_below="@+id/textView61"
+            android:layout_alignStart="@+id/textView61" />
+
+        <CheckBox
+            android:id="@+id/cb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/cb1"
+            android:layout_below="@+id/cb1"
+            android:text="Trekking" />
+
+        <CheckBox
+            android:id="@+id/cb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/cb2"
+            android:layout_below="@+id/cb2"
+            android:text="Camping" />
+
+        <CheckBox
+            android:id="@+id/cb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/cb3"
+            android:layout_below="@+id/cb3"
+            android:text="Skydiving" />
+
+        <CheckBox
+            android:id="@+id/cb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/cb4"
+            android:layout_below="@+id/cb4"
+            android:text="Skinny Dipping" />
+
+        <CheckBox
+            android:id="@+id/cb6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/cb5"
+            android:layout_below="@+id/cb5"
+            android:text="Bungee Jumping" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:layout_alignParentBottom="true"
+            android:layout_alignEnd="@+id/imageView10"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="45dp" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/heart"
+            android:layout_below="@+id/textView61"
+            android:layout_toEndOf="@+id/cb6"
+            android:layout_marginStart="18dp" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
